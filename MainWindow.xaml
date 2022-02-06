@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="600">
     <Grid>
         <ListBox Name="taskLBx" Margin="10,0,0,0" Height="400" Width="237" VerticalAlignment="Center" HorizontalAlignment="Left" SelectionChanged="taskLBx_SelectionChanged"/>
-        <TextBox Name="taskNameTbx" Text="enter task"  TextWrapping="Wrap" Margin="300,27,74,388" KeyDown="taskNameTbx_KeyDown"/>
-        <Button Name="addBtn" Content="Add" HorizontalAlignment="Left" Height="30" Margin="300,70,0,0" VerticalAlignment="Top" Width="100" Click="addBtn_Click" IsEnabled="False"/>
-        <Button Name="deleteBtn" Content="Delete" HorizontalAlignment="Left" Height="30" Margin="423,70,0,0" VerticalAlignment="Top" Width="103" Click="deleteBtn_Click" IsEnabled="False"/>
+        <TextBox Name="taskTBx" FontSize="20" HorizontalAlignment="Left" Height="30" Margin="300,17,0,0" TextWrapping="Wrap" Text="Enter a task" VerticalAlignment="Top" Width="226" KeyDown="taskTBx_KeyDown" />
+        <Button Name="addBtn" Content="Add" HorizontalAlignment="Left" Height="30" Margin="300,70,0,0" VerticalAlignment="Top" Width="100"  IsEnabled="False" Click="addBtn_Click"/>
+        <Button Name="deleteBtn" Content="Delete" HorizontalAlignment="Left" Height="30" Margin="423,70,0,0" VerticalAlignment="Top" Width="103"  IsEnabled="False" Click="deleteBtn_Click"/>
 
     </Grid>
 </Window>
