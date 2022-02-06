@@ -24,5 +24,30 @@ namespace test
         {
             InitializeComponent();
         }
+
+        private void taskNameTbx_KeyDown(object sender, KeyEventArgs e)
+        {
+            addBtn.IsEnabled = true;
+            if(e.Key == Key.Enter)
+            {
+
+            }
+
+        }
+
+        private void addBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void deleteBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void taskLBx_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

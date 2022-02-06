@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:test"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="600">
     <Grid>
+        <ListBox Name="taskLBx" Margin="10,0,0,0" Height="400" Width="237" VerticalAlignment="Center" HorizontalAlignment="Left" SelectionChanged="taskLBx_SelectionChanged"/>
+        <TextBox Name="taskNameTbx" Text="enter task"  TextWrapping="Wrap" Margin="300,27,74,388" KeyDown="taskNameTbx_KeyDown"/>
+        <Button Name="addBtn" Content="Add" HorizontalAlignment="Left" Height="30" Margin="300,70,0,0" VerticalAlignment="Top" Width="100" Click="addBtn_Click" IsEnabled="False"/>
+        <Button Name="deleteBtn" Content="Delete" HorizontalAlignment="Left" Height="30" Margin="423,70,0,0" VerticalAlignment="Top" Width="103" Click="deleteBtn_Click" IsEnabled="False"/>
 
     </Grid>
 </Window>
